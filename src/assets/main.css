@@ -1,0 +1,144 @@
+article, aside, footer, header, nav, section {
+  display: block;
+}
+
+.navbar {
+  border-bottom: red solid 5px;
+}
+
+div {
+  display: block;
+}
+
+.banner-main {
+  width: 100%;
+  height: 550px;
+  background: #000000; 
+  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, hsla(0, 0%, 26%, 0.800), hsla(0, 0%, 0%, 0.800)),url(../icons/banner.jpeg); 
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, hsla(0, 0%, 26%, 0.800), hsla(0, 0%, 0%, 0.800)),url(../icons/banner.jpeg); 
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background-size: cover;
+  background-attachment: fixed;
+  position: relative;
+}
+
+.container {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    border-bottom: red;
+}
+
+.relative {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  text-align: center;
+  right: 0;
+  left: 0;
+}
+
+.perfect {
+  font-weight: normal;
+  padding: 0px 20px;
+  font-size: 51px;
+}
+
+.container-fluid {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+
+
+.text-box {
+  background: #304e57;
+  width: 100%;
+  height: 90%;
+  margin: 32px 0px;
+  box-sizing: border-box !important;
+}
+
+.text-box .box {
+  padding: 20px 15px;
+  margin-left: inherit;
+}
+
+.text-box .box i img {
+  display: flex;
+  height: 10rem;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.text-box .box a {
+  max-width: 167px;
+  background: #fff;
+  color: black;
+  width: 100%;
+  padding: 12px 0px;
+  display: inline-block;
+  text-align: center;
+  margin-top: 30px;
+}
+
+
+
+.text-box .box h3 {
+  font-size: 22px;
+  line-height: 30px;
+  padding: 12px 0px;
+  color: #fff;
+  text-transform: uppercase;
+}
+
+.text-box .box p {
+  color: #fff;
+  font-size: 17px;
+  line-height: 22px;
+}
+
+.footer {
+  background: #0b0808;
+  padding-top: 90px;
+}
+
+.address {
+  margin-bottom: 30px;
+}
+
+.footer .address h3 {
+  color: #fff;
+  font-size: 25px;
+  line-height: 35px;
+  font-weight: 500px;
+  padding-bottom: 20px;
+}
+
+ul.locarion_icon {
+  padding-bottom: 15px;
+}
+
+ul.locarion_icon li {
+  padding-bottom: 15px;
+  color: #fff;
+  font-size: 16px;
+}
+
+ul, li, ol {
+  margin: 0px;
+  padding: 5px;
+  list-style: none;
+}
+
+.footer .address img {
+  padding-right: 20px;
+}
